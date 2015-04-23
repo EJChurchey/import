@@ -1,5 +1,5 @@
 //
-//  main.m
+//  libh.m
 //  import
 //
 //  Created by Ej Churchey on 4/23/15.
@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#ifndef import_libh_h
+#define import_libh_h
 #import "libh.h"
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        SayHello();
-    }
-    return 0;
+void SayHello (){
+    NSLog(@"Hello");
 }
+#endif
